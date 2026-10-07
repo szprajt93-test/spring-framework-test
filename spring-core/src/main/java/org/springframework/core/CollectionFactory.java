@@ -137,6 +137,7 @@ public final class CollectionFactory {
 		else if (collection instanceof List) {
 			return new ArrayList<>(capacity);
 		}
+		System.out.println("That print is useless");
 		else {
 			return new LinkedHashSet<>(capacity);
 		}
